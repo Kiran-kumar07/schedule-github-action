@@ -3,8 +3,9 @@ name: schedule github action
 on: 
   schedule:
     - cron: "0 0 * * *"
+ 
  jobs:
-   run-script:
+    run-script:
      runs-on: ubuntu-latest
 
      steps:

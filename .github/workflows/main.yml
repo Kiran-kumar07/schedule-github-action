@@ -1,14 +1,13 @@
-name: Schedule github action
+name: Schedule GitHub Action
 
-on: 
+on:
   schedule:
     - cron: "0 0 * * *"
- 
- jobs:
-   run-script:
-     runs-on: ubuntu-latest
 
-     steps:
-       - name: Print Message
-         run: echo " schedule the time of github acation"
-   
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Message
+        run: echo "Schedule the time of GitHub Action"
